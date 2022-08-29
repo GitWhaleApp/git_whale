@@ -8,7 +8,7 @@ pub fn open_repo(path: &str) -> Repo<Repository> {
             Repo{data: repo, path: String::from(path)}
         },
         Err(e) => {
-            panic!("Can't open Repo {}", path);
+            panic!("Error: {}", e);
         }
     }
 }
