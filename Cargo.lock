@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "GitWhale"
-version = "0.0.1"
-dependencies = [
- "git2",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -59,6 +52,13 @@ dependencies = [
  "openssl-probe",
  "openssl-sys",
  "url",
+]
+
+[[package]]
+name = "git_whale"
+version = "0.0.1"
+dependencies = [
+ "git2",
 ]
 
 [[package]]

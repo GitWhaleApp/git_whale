@@ -8,9 +8,9 @@ fn get_version() -> String {
 
 fn main() {
 
-    let git_repo = git_adapter::open_repo("/Users/rudrabhoj/Work/GitWhale");
+    let git_repo = git_adapter::open_repo("/Users/rudrabhoj/Rust/git_whale");
 
-    println!("Welcome to GitWhale v{}", get_version());
+    println!("Welcome to git_whale v{}", get_version());
     println!("Repo: {:?}", git_repo.path);
 }
 
