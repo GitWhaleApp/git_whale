@@ -1,5 +1,5 @@
 [package]
-name = "GitWhale"
+name = "git_whale"
 version = "0.0.1"
 edition = "2021"
 
